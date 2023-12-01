@@ -83,6 +83,7 @@ function Contact() {
         </Typography>
         <Grid
           container
+          spacing={2}
           sx={{
             alignItems: "center",
             justifyContent: "space-between",
@@ -182,7 +183,7 @@ function Contact() {
             <Box
               sx={{
                 height: { md: "400px", xs: "350px" },
-                mt: { md: 0, xs: "10px" },
+                // mt: { md: 0, xs: "10px" },
               }}
             >
               {/* Img Of Contact */}

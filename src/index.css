@@ -197,13 +197,14 @@ fieldset {
 
 /* About */
 
-/* Animation In Contact & About */
-
-/* .about-img, .contact-img  {
-  animation: animateAboutContact 2s linear 2s infinite alternate;
+.about-img, .contact-img  {
+  /* animation: animateAboutContact 2s linear 2s infinite alternate; */
   object-fit: contain;
 }
 
+/* Animation In Contact & About */
+
+/* 
 @keyframes animateAboutContact {
   0% {
     transform: translateY(10px);
